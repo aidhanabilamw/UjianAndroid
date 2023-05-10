@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         for (int i = 0; i < isian_umur; i++) {
                             daftar_nama.add(nama_lengkap);
                         }
+
                         edNamaDepan.setText("");
                         edNamaBelakang.setText("");
                         intent_list.putStringArrayListExtra("daftar_nama", daftar_nama);
